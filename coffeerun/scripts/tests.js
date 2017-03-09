@@ -61,3 +61,5 @@ QUnit.test("Testing Truck Methods", function(assert) {
         "emailAddress": "me@goldfinger.com"
     }], "delievered 2 orders");
 });
+
+//The problem with the truck module was that printOrders didn't return anything, so we had to go in and change that
